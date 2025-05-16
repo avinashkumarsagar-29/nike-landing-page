@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+*{
+    margin:0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 72px;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+} 
+button{
+    all: unset;
+    padding: 6px 16px;
+    background: #D01C28;
+    height: 31px;
+    color: white;
+    font-weight: 75px;
+}
+
+.sagar{
+    display: flex; 
+    margin: 0 auto;
+    max-width: 1280px;
+    align-items: center ;
+    height: calc(100vh-72 px);
+
+    
+
+}
+.sagar h1{
+    font-weight: 800;
+    font-size: 100px;
+    line-height: 108px;
+    letter-spacing: 0%;
+
+}
+.sagar p{
+font-weight: 600;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #5A5959;
+max-width: 400px;
+
+}
+.sagar-btn{
+    display: flex;
+width: 331;
+height: 41;
+gap: 40px;
+
+}
+.sec-btn{
+    background: transparent;
+    color: #5A5959;
+    border: 1px solid gray;
+}
+.shop p{
+font-weight: 400;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+margin-bottom: 8px;
+
+}
+.brandlog{
+    display: flex;
+    gap: 16px;
+     
+}
+.sagar-content{
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+
+
+}
+.store{
+    width: 520px;
+    height: 480px;
+    box-shadow: 32px 32px 24px 0px #0000004D;
+
+}
